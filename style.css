@@ -1,0 +1,179 @@
+body {
+	background-image: url("fondos/madrid4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#gracias {
+	background: rgba(0, 0, 0, 0.4);
+	background-position: center;
+	font-size: 30px;
+
+}
+.header {
+	background: rgba(0, 0, 0, 0.4);
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+}
+
+.logo-nav-contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+    padding: 10px;
+}
+
+.navegador ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+.navegador ul li {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+}
+
+.navegador ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 200px;
+
+}
+
+.navegador ul li:hover {
+	background: #ccc;
+}
+
+
+.centrado {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 150px;
+}
+
+.logo-body {
+		height: 200px;
+}
+
+.eslogan {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.quienessomos {
+	padding: 200px;
+}
+.titulo1 {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.texto1 {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	
+}
+.foto1 {
+	color:  white;
+}
+
+.servicio {
+	padding: 200px;
+}
+.titulo2 {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.texto2 {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	
+}
+.foto2 {
+	color:  white;
+}
+
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+
+}
+h2 {
+	color: white;
+	text-align: center;
+	margin: 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+
+input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 15px;
+	border: none;
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#boton {
+	background: #31384A;
+	color: white;
+	padding: 20px;
+}
+
+#boton:hover {
+	cursor: pointer;
+}
+
+@media (max-width:480px) {
+	form {
+		width: 100%;
+	}
+}
